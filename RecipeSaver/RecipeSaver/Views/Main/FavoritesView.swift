@@ -13,6 +13,7 @@ struct FavoritesView: View {
             Text("お気に入りはまだありません")
                 .navigationTitle("Favorites")
         }
+        .navigationViewStyle(.stack)
     }
 }
 
